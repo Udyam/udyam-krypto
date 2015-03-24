@@ -1,7 +1,7 @@
 {
     "english": {
         "frame": {
-            "title": "tinyCTF",
+            "title": "Pwnland | Udyam 2015",
             "toggle": "Toggle navigation",
             "login": "Sign in",
             "register": "Register",
@@ -9,15 +9,15 @@
             "logout": "log out"
         },
         "main": {
-            "title": "Hello World!",
-            "text": "Welcome text goes here"
+            "title": "Krypto presents PWNLAND",
+            "text": "This is a 3-day challenge based on real-world cryptography. This will run from 12:00 IST 25 March, 2015 to 12:00 IST 28 March, 2015. For any queries, you can reach us at krypto.udyam@gmail.com."
         },
         "about": {
             "title": "About",
             "news": "News",
-            "news_text": "News go here",
+            "news_text": "This is **not** the main Krypto event, but is intended to provide more insight into real world cryptography. You can reach us at krypto.udyam@gmail.com",
             "rules": "Rules",
-            "rules_text": "Rules go here"
+            "rules_text": "This is an individual event. Goodies for top 3 participants! Hurry!"
         },
         "tasks": {
             "title": "Tasks"
@@ -30,7 +30,7 @@
             "failure": "Incorrect flag",
             "solution_format": "solved by %d",
             "no_description": "(none)",
-            "placeholder": "flag{insert_flag_here}"
+            "placeholder": ""
         },
         "scoreboard": {
             "title": "Scoreboard",

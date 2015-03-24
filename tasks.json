@@ -1,86 +1,57 @@
 {"categories": [
-    {"id": 0, "name": "Misc.", "short_name": "Misc", "tasks": [
+    {"id": 0, "name": "Codebreakers", "short_name": "mono", "tasks": [
         {
-            "id": 0, 
+            "id": 0,
             "row": 0,
-            "name": "Test flag, please ignore", 
-            "score": "50",
-            "flag": "flag{hello_world}",
-            "desc": "The flag is hello_world, with the flag tag and brackets",
-            "file": "misc50.zip"
-        },
-        {
-            "id": 1, 
-            "row": 1,
-            "name": "Test flag, please ignore 2", 
+            "name": "Simple cipher",
             "score": "100",
-            "flag": "flag{test_test}",
-            "desc": "The flag is test_test, with the flag tag and brackets",
-            "file": "misc100.zip"
+            "flag": "The urge to discover secrets is deeply ingrained in human nature; even the least curious mind is roused by the promise of sharing knowledge withheld from others.",
+            "desc": "This is from a famous book on history of cryptography. (Hint: try mono alphabetic ciphers)",
+            "file": "cipher.enc"
         }
     ]},
-    {"id": 1, "name": "Web", "short_name": "Web", "tasks": [
+    {"id": 1, "name": "RAW-RSA", "short_name": "raw", "tasks": [
         {
-            "id": 2, 
+            "id": 2,
             "row": 0,
-            "name": "Some sqli task", 
-            "score": "100",
-            "flag": "flag{web_test}",
-            "desc": "The flag is web_test, with the flag tag and brackets",
-            "file": "web100.zip"
+            "name": "Another task for RAW!",
+            "score": "300",
+            "flag": "ebCTF{b517aba29f132c52c9426a177952a2d8}",
+            "desc": "We identified some undercover terrorists that are using RSA to exchange messages with each other. We managed to incercept some, can you decrypt them? ",
+            "file": "raw2-krypto.zip"
         }
     ]},
-    {"id": 2, "name": "Reversing", "short_name": "Rev", "tasks": [
+    {"id": 2, "name": "DESX", "short_name": "des", "tasks": [
         {
-            "id": 3, 
+            "id": 3,
             "row": 0,
-            "name": "gdb is your friend", 
-            "score": "100",
-            "flag": "flag{reversing_is_fun}",
-            "desc": "The flag is reversing_is_fun, with the flag tag and brackets",
-            "file": "rev100.zip"
-        }
-    ]},
-    {"id": 3, "name": "Exploit", "short_name": "Exp", "tasks": [
-        {
-            "id": 4, 
-            "row": 0,
-            "name": "Smashing the stack for fun and profit", 
+            "name": "DES is your friend!",
             "score": "200",
-            "flag": "flag{pwning_is_even_more_fun}",
-            "desc": "The flag is pwning_is_even_more_fun, with the flag tag and brackets",
-            "file": "pwn200.zip"
+            "flag": "Welcome to Udyam, IIT (BHU) Crypto Club!",
+            "desc": "Message has been encrypted using DES, where characters are assigned values from 0-255. Answer is the original plaintext.",
+            "file": "desx.enc"
         }
     ]},
-    {"id": 4, "name": "Crypto", "short_name": "Cry", "tasks": [
+    {"id": 3, "name": "Zombies", "short_name": "zombie", "tasks": [
         {
-            "id": 5, 
+            "id": 4,
             "row": 0,
-            "name": "Some simple crypto task here", 
-            "score": "100",
-            "flag": "flag{some_crypto_task}",
-            "desc": "The flag is some_crypto_task, with the flag tag and brackets",
-            "file": "cry100.zip"
-        },
+            "name": "Zombie Krypto",
+            "score": "150",
+            "flag": "WELOVEBRAINZ",
+            "desc": "Zombies got communication-problems because of their heterogeneity, so they defined a standard for their communication. We need to know how to decrypt their messages in order to successfully defeat them. Luckily, a friend of mine found one of those encrypted messages (file included + Hint: uppercase seems legit )",
+            "file": "zombie.enc"
+        }
+    ]},
+    {"id": 4, "name": "Internet Freedom!", "short_name": "cry", "tasks": [
         {
-            "id": 6, 
-            "row": 1,
-            "name": "More crypto tasks!", 
+            "id": 5,
+            "row": 0,
+            "name": "Some simple crypto",
             "score": "200",
-            "flag": "flag{more_crypto}",
-            "desc": "The flag is more_crypto, with the flag tag and brackets",
-            "file": "cry200.zip"
-        }
-    ]},
-    {"id": 5, "name": "Stego", "short_name": "Steg", "tasks": [
-        {
-            "id": 7, 
-            "row": 0,
-            "name": "Ucucuga", 
-            "score": "100",
-            "flag": "flag{ucucuga}",
-            "desc": "The flag is ucucuga, with the flag tag and brackets",
-            "file": "stego100.zip"
+            "flag": "flag{Julian Assange}",
+            "desc": "Decrypt this",
+            "file": "7ef605fc8dba5425d6965fbd4c8fbe1f.txt"
         }
     ]}
 ]}

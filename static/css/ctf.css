@@ -7,14 +7,15 @@ body {
  */
 
 .full {
-background: url('../img/background.jpg') no-repeat center center fixed; 
+background: url('../img/backgrd.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
+
 .table > thead > tr > th {
-   background-color: rgba(0, 0, 0, 0.5); 
+   background-color: rgba(0, 0, 0, 0.5);
    color: #eee;
 }
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
